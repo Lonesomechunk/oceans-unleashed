@@ -118,6 +118,6 @@
     }
   },
   "url": "https://github.com/Lonesomechunk/OceansUnleashed",
-  "manifest": "https://raw.githubusercontent.com/Lonesomechunk/oceans-unleashed/master/module.json",
+  "manifest": "https://raw.githubusercontent.com/Lonesomechunk/OceansUnleashed/master/module.json",
   "download": "https://github.com/Lonesomechunk/OceansUnleashed/archive/refs/heads/main.zip"
 }
