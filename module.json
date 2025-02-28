@@ -1,0 +1,123 @@
+{
+  "id": "oceans-unleashed",
+  "title": "Oceans Unleashed",
+  "description": "a description",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Conner Berkheiser",
+      "discord": "lonesomechunk",
+      "flags": {}
+    },
+    {
+      "name": "Ruben \"Lyon\" Salazar",
+      "discord": "lyon_naglfar",
+      "flags": {}
+    },
+    {
+      "name": "Raul \"Valor\" Padilla",
+      "discord": "valor_bard",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "oceans-player-options",
+      "label": "Player Options",
+      "banner": "modules/oceans-unleashed/assets/banners/banner1.webp",
+      "path": "packs/player-options",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "oceans-others",
+      "label": "Others",
+      "banner": "modules/oceans-unleashed/assets/banners/banner2.webp",
+      "path": "packs/others",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "oceans-journal",
+      "label": "Journal",
+      "banner": "modules/oceans-unleashed/assets/banners/banner3.webp",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "oceans-creatures",
+      "label": "Creatures",
+      "banner": "modules/oceans-unleashed/assets/banners/banner4.webp",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Golarion Unleashed",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Oceans Unleashed",
+          "sorting": "m",
+          "packs": [
+            "oceans-player-options",
+            "oceans-creatures",
+            "oceans-others",
+            "oceans-journal"
+          ]
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "oceans-unleashed": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "conch-pike": "Conch Pike",
+          "shell-blades": "Shell Blades",
+          "harpoon-gun": "Harpoon Gun",
+          "shark-tooth-spear": "Shark Tooth Spear",
+          "pearl-sling": "Pearl Sling",
+          "fish-hook": "Fish Hook"
+        }
+      }
+    }
+  },
+  "url": "https://github.com/Lonesomechunk/OceansUnleashed",
+  "manifest": "https://raw.githubusercontent.com/Lonesomechunk/OceansUnleashed/master/module.json",
+  "download": "https://github.com/Lonesomechunk/OceansUnleashed/archive/refs/heads/main.zip"
+}
